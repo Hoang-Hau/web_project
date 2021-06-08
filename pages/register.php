@@ -27,7 +27,7 @@
                 $query = pg_query($mysqli,$sql);
                 $num = pg_num_rows($query);
                 if($num == 0){
-                    $sql2 = "INSERT INTO tb_admin(username,password) VALUES('".$username."','".$password."')";
+                    $sql2 = "INSERT INTO public.tb_admin(username,password) VALUES('".$username."','".$password."')";
                     $them = pg_query($mysqli, $sql2);
                     if($them){
                         echo'<p style="color:white">Successful Register</p>';
