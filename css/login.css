@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image:url(../images/avatarlogin.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.loginbox {
+    width: 340px;
+    height: 470px;
+    background: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 150px 80px;
+    margin: 30px;
+    padding: 0;
+    font-weight: bold;
+    /* border-radius: 20px; */
+    border: 2px solid #ccc;
+}
+.avatar {
+    width: 50%;
+    margin: 0 85px;
+   /* height: 100px;
+    border-radius: 50%;
+    left: calc(50% - 50%);*/
+    position: absolute;
+    top: -10%;
+    border-radius: 70%;
+}
+h1 {
+    padding: 0 0 20px;
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+.login {
+    margin-top: 60px;
+    font-size: 30px;
+}
+form {
+    padding: 0 15px;
+    padding-right: 15px;
+    
+}
+
+.namek {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.Pass {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.Summit {
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.Summit:hover{
+    opacity: .6;
+}
+.loginbox input {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.summit
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: Red;
+    color: black ;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+    color: black;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 30px;
+    color: darkgrey;
+}
+.loginbox a:hover
+{
+    color: yellow;
+}

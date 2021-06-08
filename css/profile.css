@@ -1,0 +1,60 @@
+body {
+    background-image: url(../images/avapo.jpg);
+    background-size: cover;
+  }
+
+  td {
+    width: 250px;
+    padding: 10px;
+    font-size: larger;
+    font-family: arial;
+    text-align: center;
+
+  }
+
+  tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+
+  table.Profiletable {
+    margin: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+
+  table tr:nth-child(odd) {
+    background-color: black;
+  }
+
+  table tr:nth-child(even) {
+    background-color: blueviolet;
+  }
+
+  table tr:nth-child(1) {
+    background-color: black;
+  }
+
+  img {
+    width: 45%;
+    margin-left: 5%;
+  }
+
+  h1 {
+    text-align: center;
+    color: whitesmoke;
+  }
+  .homebutton {
+    background-color: #c7c7c7;
+    color: #000000;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 0.5cm;
+    cursor: pointer;
+    border: 5px solid #616161;
+  }
+  .homebutton:hover  {
+    background-color: #585858;
+  }
