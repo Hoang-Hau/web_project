@@ -23,11 +23,11 @@
                 if($password2 != $password){
                 echo'<p style="color:red">Password not same</p>';
                  } else{
-                $sql = "SELECT * FROM tb_admin WHERE username ='$username'";
+                $sql = "SELECT * FROM public.tb_admin WHERE username ='$username'";
                 $query = pg_query($mysqli,$sql);
                 $num = pg_num_rows($query);
                 if($num == 0){
-                    $sql2 = "INSERT INTO tb_admin(username,password) VALUES('".$username."','".$password."')";
+                    $sql2 = "INSERT INTO public.tb_admin(username,password) VALUES('".$username."','".$password."')";
                     $them = pg_query($mysqli, $sql2);
                     if($them){
                         echo'<p style="color:white">Successful Register</p>';

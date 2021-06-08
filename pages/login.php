@@ -4,7 +4,7 @@ include('../config/config.php');
 if(isset($_POST['loginbutton'])){
     $user_name=$_POST['user'];
     $pass_word=$_POST['psw'];
-    $sql_login="SELECT * FROM tb_admin WHERE username='".$user_name."' AND password='".$pass_word."'LIMIT 1" ;
+    $sql_login="SELECT * FROM public.tb_admin WHERE username='".$user_name."' AND password='".$pass_word."'LIMIT 1" ;
     $row=pg_query($mysqli,$sql_login);
     $count = pg_num_rows($row);
     $rows_user=pg_fetch_array($row);
